@@ -1,0 +1,8 @@
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.23.0
+onnxruntime>=1.15.0
+insightface>=0.7.3
+supervision>=0.18.0
+scipy>=1.9.0
+lapx>=0.5.5
