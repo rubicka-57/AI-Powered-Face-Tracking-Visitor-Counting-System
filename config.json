@@ -1,0 +1,19 @@
+{
+    "source": "sample.mp4",
+    "detection_skip_frames": 5,
+    "similarity_threshold": 0.45,
+    "exit_timeout_seconds": 30,
+    "entry_exit_line_position": 0.5,
+    "line_orientation": "horizontal",
+    "entry_direction": "top_to_bottom",
+    "yolo_model_path": "models/yolov8n-face.pt",
+    "confidence_threshold": 0.5,
+    "db_path": "data/visitors.db",
+    "logs_dir": "logs",
+    "events_log_path": "logs/events.log",
+    "entries_dir": "logs/entries",
+    "exits_dir": "logs/exits",
+    "show_display": true,
+    "save_output_video": false,
+    "output_video_path": "output_processed.mp4"
+}
